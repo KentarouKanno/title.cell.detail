@@ -2,10 +2,10 @@
 //  ViewController.swift
 //  btr-label
 //
-//  Created by 西川継延 on 2018/02/25.
-//  Copyright © 2018年 西川継延. All rights reserved.
+//  Created by --- on 2018/02/25.
+//  Copyright © 2018年 ----. All rights reserved.
 //
-//Users/nishikawakeien/Desktop/btr-labelのコピー2/btr-label/ViewController.swift
+//Users/nishikawakeien/Desktop/btr-labelのコピー2/btr-label/ViewController.swift
 struct Cell {
   var detail: [String]
   var lightswipe: Bool//detail
