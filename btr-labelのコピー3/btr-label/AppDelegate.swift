@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  btr-label
 //
-//  Created by 西川継延 on 2018/02/25.
-//  Copyright © 2018年 西川継延. All rights reserved.
+//  Created by  on 2018/02/25.
+//  Copyright © 2018年 . All rights reserved.
 //
 
 import UIKit
