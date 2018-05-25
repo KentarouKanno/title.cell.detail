@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3603887B20B63EB500B05AE3 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3603887A20B63EB500B05AE3 /* CellData.swift */; };
+		366589BA20B61AAE00B3FD25 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366589B920B61AAE00B3FD25 /* TitleCell.swift */; };
+		366589BC20B61ABB00B3FD25 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366589BB20B61ABB00B3FD25 /* DetailCell.swift */; };
+		366589BE20B61B0900B3FD25 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366589BD20B61B0900B3FD25 /* CustomLabel.swift */; };
+		366589C220B625C100B3FD25 /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366589C120B625C100B3FD25 /* UIAlertController+.swift */; };
 		EC3EB0C52042C50900AD163B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EB0C42042C50900AD163B /* AppDelegate.swift */; };
 		EC3EB0C72042C50900AD163B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EB0C62042C50900AD163B /* ViewController.swift */; };
 		EC3EB0CA2042C50900AD163B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3EB0C82042C50900AD163B /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3603887A20B63EB500B05AE3 /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		366589B920B61AAE00B3FD25 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		366589BB20B61ABB00B3FD25 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		366589BD20B61B0900B3FD25 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		366589C120B625C100B3FD25 /* UIAlertController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
 		EC3EB0C12042C50800AD163B /* btr-label.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "btr-label.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3EB0C42042C50900AD163B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC3EB0C62042C50900AD163B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +47,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3603887920B63E9D00B05AE3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3603887A20B63EB500B05AE3 /* CellData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		366589B720B61A8400B3FD25 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC3EB0C62042C50900AD163B /* ViewController.swift */,
+				366589B820B61A9200B3FD25 /* Cell */,
+				366589BF20B61B1700B3FD25 /* Label */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		366589B820B61A9200B3FD25 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				366589B920B61AAE00B3FD25 /* TitleCell.swift */,
+				366589BB20B61ABB00B3FD25 /* DetailCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		366589BF20B61B1700B3FD25 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				366589BD20B61B0900B3FD25 /* CustomLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		366589C020B625A800B3FD25 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				366589C120B625C100B3FD25 /* UIAlertController+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		EC3EB0B82042C50800AD163B = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				EC3EB0C42042C50900AD163B /* AppDelegate.swift */,
-				EC3EB0C62042C50900AD163B /* ViewController.swift */,
+				3603887920B63E9D00B05AE3 /* Data */,
+				366589C020B625A800B3FD25 /* Extension */,
+				366589B720B61A8400B3FD25 /* ViewController */,
 				EC3EB0C82042C50900AD163B /* Main.storyboard */,
 				EC3EB0CE2042C50900AD163B /* Assets.xcassets */,
 				EC3EB0D02042C50900AD163B /* LaunchScreen.storyboard */,
@@ -139,6 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366589BC20B61ABB00B3FD25 /* DetailCell.swift in Sources */,
+				366589BE20B61B0900B3FD25 /* CustomLabel.swift in Sources */,
+				366589C220B625C100B3FD25 /* UIAlertController+.swift in Sources */,
+				3603887B20B63EB500B05AE3 /* CellData.swift in Sources */,
+				366589BA20B61AAE00B3FD25 /* TitleCell.swift in Sources */,
 				EC3EB0C72042C50900AD163B /* ViewController.swift in Sources */,
 				EC3EB0C52042C50900AD163B /* AppDelegate.swift in Sources */,
 				EC3EB0CD2042C50900AD163B /* btr_label.xcdatamodeld in Sources */,
